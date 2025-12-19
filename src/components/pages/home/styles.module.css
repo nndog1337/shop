@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.wrapper{
+  @apply grid grid-cols-2 gap-5
+}

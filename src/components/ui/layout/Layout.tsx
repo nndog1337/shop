@@ -13,7 +13,6 @@ const Layout = ({children, title}: Props) => {
       <header>
         <nav>
           <Link to='/'>Home</Link>
-          <Link to='/cart'>Cart</Link>
         </nav>
       </header>
       <h1 className={styles.heading}>{title}</h1>

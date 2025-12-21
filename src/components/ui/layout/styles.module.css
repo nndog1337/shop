@@ -7,3 +7,13 @@
 .heading{
   @apply text-3xl font-semibold mb-5
 }
+
+header{
+  nav{
+    @apply flex items-center justify-center mb-5;
+
+    a{
+      @apply text-lime-600 font-medium mx-4
+    }
+  }
+}
